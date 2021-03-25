@@ -1,4 +1,4 @@
-package º¯¼ö;
+package ë³€ìˆ˜;
 
 public class string{
 

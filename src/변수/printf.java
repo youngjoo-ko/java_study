@@ -1,4 +1,5 @@
-package º¯¼ö;
+package ë³€ìˆ˜;
+
 
 
 public class printf {
@@ -13,13 +14,14 @@ public class printf {
 		System.out.printf("f1 = %f, %e, %g%n", f1, f1, f1);
 		System.out.printf("f2 = %f, %e, %g%n", f2, f2, f2);
 		System.out.printf("f3 = %f, %e, %g%n", f3, f3, f3);
-		System.out.printf("d=%f%n", d); // ¼Ò¼öÁ¡ÀÌÇÏ 6ÀÚ¸®±îÁö ¹İ¿Ã¸²
-		System.out.printf("d=%14.10f%n", d); // ÀüÃ¼ 14ÀÚ¸® Áß ¼Ò¼öÁ¡ ÀÌÇÏ 10ÀÚ¸®(ºÎÁ·ÇÑ ºÎºĞÀº 0À¸·Î Ã¤¿ò)
-		System.out.printf("d=%014.10f%n", d); // Á¤¼ö ¾ÕºÎºĞÀ» 0À¸·Î Ã¤¿ò
+		System.out.printf("d=%f%n", d); // ì†Œìˆ˜ì ì´í•˜ 6ìë¦¬ê¹Œì§€ ë°˜ì˜¬ë¦¼
+		System.out.printf("d=%14.10f%n", d); // ì „ì²´ 14ìë¦¬ ì¤‘ ì†Œìˆ˜ì  ì´í•˜ 10ìë¦¬(ë¶€ì¡±í•œ ë¶€ë¶„ì€ 0ìœ¼ë¡œ ì±„ì›€)
+		System.out.printf("d=%014.10f%n", d); // ì •ìˆ˜ ì•ë¶€ë¶„ì„ 0ìœ¼ë¡œ ì±„ì›€
 		System.out.printf("[%s]%n", url);
-		System.out.printf("[%20s]%n", url); // ¿ìÃøÁ¤·Ä
-		System.out.printf("[%-20s]%n", url); // ÁÂÃøÁ¤·Ä 
-		System.out.printf("[%.8s]%n", url); // ¿ŞÂÊ¿¡¼­ 8±ÛÀÚ¸¸ Ãâ·Â
+		System.out.printf("[%20s]%n", url); // ìš°ì¸¡ì •ë ¬
+		System.out.printf("[%-20s]%n", url); // ì¢Œì¸¡ì •ë ¬ 
+		System.out.printf("[%.8s]%n", url); // ì™¼ìª½ì—ì„œ 8ê¸€ìë§Œ ì¶œë ¥
 	}
 
 }
+

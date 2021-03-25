@@ -1,27 +1,26 @@
-package º¯¼ö;
-
+package ë³€ìˆ˜;
 
 public class constant{
 	public static void main(String[] args) {
 		final int SCORE = 100;
-		// score = 200; ¿¡·¯, »ó¼öÀÌ¹Ç·Î
+		// score = 200; ì—ëŸ¬, ìƒìˆ˜ì´ë¯€ë¡œ
 		boolean power = true;
 		byte b = 127; //(-128~127)
 		
-		int oct = 010; // 8Áø¼ö, 10Áø¼ö·Î 8
-		int hex = 0x10; // 16Áø¼ö, 10Áø¼ö·Î 16
+		int oct = 010; // 8ì§„ìˆ˜, 10ì§„ìˆ˜ë¡œ 8
+		int hex = 0x10; // 16ì§„ìˆ˜, 10ì§„ìˆ˜ë¡œ 16
 		System.out.println(oct);
 		System.out.println(hex);
 		
-		long l = 1000_000_000; // intÇü ¸®ÅÍ·² 10¾ï, ¸¸¾à 100¾ïÀ¸·Î ¹Ù²Û´Ù¸é
-		// Á¢¹Ì»ç LÀ» ºÙ¿©¾ß °¡´É 
+		long l = 1000_000_000; // intí˜• ë¦¬í„°ëŸ´ 10ì–µ, ë§Œì•½ 100ì–µìœ¼ë¡œ ë°”ê¾¼ë‹¤ë©´
+		// ì ‘ë¯¸ì‚¬ Lì„ ë¶™ì—¬ì•¼ ê°€ëŠ¥ 
 		long L = 10_000_000_000l; 
 		System.out.println(l);
 		System.out.println(L);
 		
 		float f = 3.14f;
 		double d = 3.14d;
-		double dd = 3.14f; // º¯¼ö > ¸®ÅÍ·²ÀÌ¹Ç·Î ¿¡·¯¾øÀ½
+		double dd = 3.14f; // ë³€ìˆ˜ > ë¦¬í„°ëŸ´ì´ë¯€ë¡œ ì—ëŸ¬ì—†ìŒ
 		
 		System.out.println(10.);
 		System.out.println(.10);
