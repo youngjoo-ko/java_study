@@ -10,3 +10,4 @@ public class round {
 		// double 타입의 결과를 얻기 위해 1000.0 으로 나눠줘야 한다.
 	}
 }
+

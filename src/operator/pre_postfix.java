@@ -9,5 +9,5 @@ public class pre_postfix {
 		j = ++i;
 		System.out.printf("%d %d%n", j, i); // 7 7
 	}
+	
 }
-

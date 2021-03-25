@@ -11,4 +11,5 @@ public class q2 {
 		int bucket = (int)Math.ceil(apple/(double)size);
 		System.out.println(bucket);
 	}
+	
 }

@@ -11,4 +11,5 @@ public class eauals {
 		// 내용이 같은지 확인하기 위해 equals 메서드를 사용한다.
 		System.out.printf("%b%n", str1.equals(str2));
 	}
+	
 }

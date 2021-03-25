@@ -7,4 +7,5 @@ public class q1 {
 		int num = 456;
 		System.out.printf("%d%n", (num/100) * 100);
 	}
+	
 }

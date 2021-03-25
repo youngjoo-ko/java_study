@@ -7,6 +7,5 @@ public class q4 {
 		int fah = 100;
 		float cel =((float)5/9 * (fah-32));
 		System.out.printf("%.2f",cel);
-
 	}
 }

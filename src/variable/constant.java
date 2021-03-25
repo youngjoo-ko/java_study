@@ -1,6 +1,7 @@
 package variable;
 
 public class constant{
+	
 	public static void main(String[] args) {
 		final int SCORE = 100;
 		// score = 200; 에러, 상수이므로
