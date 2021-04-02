@@ -9,7 +9,7 @@ Math.Random() 값에 10을 곱하면 0.0~9.9가 될 것이고, int로 강제형�
 public class q6_17 {
 	
 	static int[] shuffle(int[] arr) {
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<arr.length; i++) {
 			int n = (int)(Math.random() * 9) + 1; //1~9 난수생성
 			int tmp = arr[0];
 			arr[0] = arr[n];
