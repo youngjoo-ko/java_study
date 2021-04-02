@@ -9,8 +9,13 @@ Math.Random() 값에 10을 곱하면 0.0~9.9가 될 것이고, int로 강제형�
 public class q6_17 {
 	
 	static int[] shuffle(int[] arr) {
+		// 배열의 요소가 없을때 원본 배열 그대로 반환
+		if(arr==null || arr.length==0) { return arr;}
+		
 		for(int i=0; i<arr.length; i++) {
 			int n = (int)(Math.random() * 9) + 1; //1~9 난수생성
+			
+			// 서로 바꿈
 			int tmp = arr[0];
 			arr[0] = arr[n];
 			arr[n] = tmp;
