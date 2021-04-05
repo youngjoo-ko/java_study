@@ -20,8 +20,7 @@ class SmartTv extends Tv{
 }
 
 
-public class extend {
-
+public class inheritance {
 	public static void main(String[] args) {
 		SmartTv stv = new SmartTv();
 		stv.channel = 10; // 조상클래스로부터 상속받은 멤버
