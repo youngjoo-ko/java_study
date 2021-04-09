@@ -29,9 +29,13 @@ class Fighter extends Unit2 implements Fightable {
 public class Interface_test {
 	public static void main(String[] args) {
 		Fighter f = new Fighter();
+		Unit2 f2 = new Fighter();
 		f.move(100, 200);
 		f.attack(new Fighter());
 		f.stop();
+		f2.move(200,300);
+		f2.stop();
+		//f2.attack(new Fighter()); //에러, unit 클래스에는 attack이 없으므로
 
 	}
 
