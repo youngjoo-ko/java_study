@@ -80,7 +80,6 @@ public class Interface_test {
 		f4.move(10,20);
 		f4.attack(f5.name);
 		f4.rest();
-		f4.stop();
 	}
 
 }
