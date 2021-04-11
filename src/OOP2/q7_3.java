@@ -4,6 +4,7 @@ class Product3{
 	int price;
 	int bonusPoint;
 	
+	// 조상의 기본생성자 추가
 	Product3() {}
 	
 	Product3(int price){
