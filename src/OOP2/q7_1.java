@@ -15,6 +15,26 @@ class SutdaDeck{
 			cards[i] = new SutdaCard(num, isKwang);
 		}
 	}
+	
+	void shuffle() {
+		for(int i=0; i<cards.length; i++) {
+			int num = (int)(Math.random() * 20) + 1;
+			SutdaCard tmp = cards[i]; // int 타입이 아니다
+			cards[i] = cards[num];
+			cards[num] = tmp;
+		}
+	}
+	
+	SutdaCard pick(int index) {
+		return cards[index];
+	}
+	
+	SutdaCard pick() {
+		int index = (int)(Math.random() * 20) + 1;
+		return cards[index];
+	}
+	
+	
 }
 
 class SutdaCard{
@@ -41,10 +61,16 @@ public class q7_1 {
 	public static void main(String[] args) {
 		SutdaDeck deck = new SutdaDeck();
 		
+		System.out.println(deck.pick(0));
+		System.out.println(deck.pick());
+		deck.shuffle();
+		
 		for(int i=0; i<deck.cards.length; i++) {
 			System.out.print(deck.cards[i] + ",");
 		}
-
+		
+		System.out.println();
+		System.out.println(deck.pick(0));
 	}
 
 }
