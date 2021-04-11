@@ -50,6 +50,7 @@ class SutdaCard{
 		this.isKwang = isKwang;
 	}
 	
+	// toString 오버라이딩, 객체가 생성되면 자동호출 된다
 	public String toString() {
 		return num + (isKwang ? "K" : "");
 	}
