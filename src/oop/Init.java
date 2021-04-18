@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-public class init {
+public class Init {
 	static int[] arr = new int[10];
 	
 	static {

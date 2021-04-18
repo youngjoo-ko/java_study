@@ -1,8 +1,8 @@
-package OOP;
+package oop;
 
 class Data3 {int x;}
 
-public class reference_return {
+public class Reference_return {
 
 	public static void main(String[] args) {
 		Data3 d = new Data3(); // 객체 생성, 참조변수 d에 객체의 주소 저장

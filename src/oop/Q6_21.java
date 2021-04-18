@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-public class q6_21 {
+public class Q6_21 {
 	
 	static int abs(int value) {
 		return value >= 0 ? value : -value;

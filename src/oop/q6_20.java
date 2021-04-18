@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-public class q6_20 {
+public class Q6_20 {
 	static int max(int[] arr) {
 		int maxnum = -999999;
 		if(arr == null || arr.length == 0) {

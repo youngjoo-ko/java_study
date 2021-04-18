@@ -1,8 +1,8 @@
-package OOP;
+package oop;
 
 class Data2 {int x;}
 
-public class reference_param {
+public class Reference_param {
 	public static void main(String[] args) {
 		Data2 d = new Data2(); // 객체 생성, 참조변수 d에 객체의 주소 저장
 		d.x = 10; //객체가 가진 멤버변수 x에 10 저장

@@ -1,29 +1,28 @@
-package OOP;
+package oop;
 
-class Car2{
+class Car{
 	String color; // 색상
 	String gearType; // 변속기 종류- auto, manual
 	int door; // 문의 개수
 	
-	Car2() {
-		this("white", "auto", 4); // 두번쨰 생성자 호출
-	} 
+	Car() {} // 기본생성자 명시
 	
-	Car2(String c , String g, int d){
+	// 매개변수가 있는 생성자
+	Car(String c , String g, int d){
 		color = c;
 		gearType = g;
 		door = d;
 	}
-	
-	Car2(String c){
-		this(c, "auto", 4); // 부분적으로 두번째 생성자 호출
-	}
 }
 
-public class constructor_this {
+public class Constructor {
 	public static void main(String[] args) {
-		Car2 c1 = new Car2();		
-		Car2 c2 = new Car2("blue");
+		Car c1 = new Car();
+		c1.color = "white";
+		c1.gearType = "auto";
+		c1.door = 4;
+		
+		Car c2 = new Car("red", "auto", 2);
 		
 		System.out.printf("%s, %s, %d%n" , c1.color, c1.gearType , c1.door);
 		System.out.printf("%s, %s, %d%n" , c2.color, c2.gearType , c2.door);

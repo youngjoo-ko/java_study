@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-public class q6_18 {
+public class Q6_18 {
 	public static boolean isNumber(String str) {
 		if(str==null || str.equals("")) return false;
 

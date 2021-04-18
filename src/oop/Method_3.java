@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 class MyMath2 {
 	long a,b; // 인스턴스 변수
@@ -14,7 +14,7 @@ class MyMath2 {
 	}
 }
 
-class method_3{
+class Method_3{
 	public static void main(String args[]) {
 		MyMath2 mm = new MyMath2();
 		mm.a = 10L;

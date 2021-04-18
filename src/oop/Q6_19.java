@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 class MyTv{
 	boolean isPowerOn;
@@ -45,7 +45,7 @@ class MyTv{
 
 
 
-class q6_19 {
+class Q6_19 {
 
 	public static void main(String[] args) {
 		MyTv t = new MyTv();

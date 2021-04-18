@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 class Student {
 	String name;
@@ -24,7 +24,7 @@ class Student {
 	}
 }
 
-class q6_1{
+class Q6_1{
 	public static void main(String[] args) {
 		Student s = new Student("홍길동", 1, 2, 100, 40, 60);
 		

@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-class method_4 {
+class Method_4 {
 	int iv;
 	static int cv;
 	

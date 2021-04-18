@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 class MyPoint{
 	int x;
@@ -17,7 +17,7 @@ class MyPoint{
 	}
 }
 
-public class q6_6 {
+public class Q6_6 {
 
 	public static void main(String[] args) {
 		MyPoint p = new MyPoint(1,1);

@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-public class overloading {
+public class Overloading {
 
 	public static void main(String[] args) {
 		System.out.println(MyMath3.add(3,5)); //8
