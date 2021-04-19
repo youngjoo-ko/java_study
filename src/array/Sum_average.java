@@ -1,6 +1,6 @@
 package array;
 
-public class array5_2_sum_average {
+public class Sum_average {
 
 	public static void main(String[] args) {
 		int sum = 0;

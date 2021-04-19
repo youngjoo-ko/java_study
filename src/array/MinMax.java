@@ -1,6 +1,6 @@
 package array;
 
-public class array5_3_minmax {
+public class MinMax {
 	// 최대 최소값 구하기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package array;
 
-public class q5_4 {
+public class Q5_4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package array;
 
-public class array5_5_lotto {
+public class Lotto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

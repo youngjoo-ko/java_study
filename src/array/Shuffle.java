@@ -1,7 +1,7 @@
 package array;
 import java.util.Arrays;
 
-public class array5_4_shuffle {
+public class Shuffle {
 	// 배열 요소 랜덤으로 섞기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
