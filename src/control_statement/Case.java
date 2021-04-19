@@ -1,7 +1,7 @@
 package control_statement;
 import java.util.Scanner;
 
-public class _case {
+public class Case {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

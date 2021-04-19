@@ -1,6 +1,6 @@
 package control_statement;
 
-public class q4_3 {
+public class Q4_3 {
  //1+(1+2)...(1+2+..+10) 구하기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

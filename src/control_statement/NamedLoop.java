@@ -1,6 +1,6 @@
 package control_statement;
 
-public class named_loop {
+public class NamedLoop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

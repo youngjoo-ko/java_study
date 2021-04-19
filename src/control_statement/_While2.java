@@ -1,6 +1,6 @@
 package control_statement;
 
-public class _while2 {
+public class _While2 {
 	// 1부터 몇까지 더해야 100이 넘지 않는지 알아내는 예제
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

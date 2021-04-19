@@ -1,7 +1,7 @@
 package control_statement;
 import java.util.*;
 
-public class _while3 {
+public class _While3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

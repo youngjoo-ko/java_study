@@ -1,6 +1,6 @@
 package control_statement;
 
-public class q4_6 {
+public class Q4_6 {
 // 주사위 2개 던져서 합이 6이 될 경우의 수 구하기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

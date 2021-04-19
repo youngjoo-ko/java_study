@@ -1,6 +1,6 @@
 package control_statement;
 
-public class _while {
+public class _While {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
