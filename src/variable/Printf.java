@@ -1,6 +1,6 @@
 package variable;
 
-public class printf {
+public class Printf {
 
 	public static void main(String[] args) {
 		String url = "www.codechobo.com";
