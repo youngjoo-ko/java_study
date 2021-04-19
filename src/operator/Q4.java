@@ -1,6 +1,6 @@
 package operator;
 
-public class q4 {
+public class Q4 {
 // 화씨 섭씨로 바꾸고 소수점 2쨰짜리 까지 표현하기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

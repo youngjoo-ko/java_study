@@ -1,6 +1,6 @@
 package operator;
 
-public class pre_postfix {
+public class PrePostfix {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int i=5, j=0;

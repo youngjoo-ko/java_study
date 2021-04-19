@@ -1,6 +1,6 @@
 package operator;
 
-public class type_conversion {
+public class Type_conversion {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

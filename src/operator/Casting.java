@@ -1,6 +1,6 @@
 package operator;
 
-public class casting {
+public class Casting {
 	public static void main(String[] args) {
 		double d = 85.5;
 		int score = (int)d;

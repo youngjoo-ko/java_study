@@ -1,6 +1,6 @@
 package operator;
 
-public class round {
+public class Round {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 소수점 n번째까지 반올림하기

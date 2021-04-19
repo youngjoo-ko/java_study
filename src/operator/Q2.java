@@ -1,6 +1,6 @@
 package operator;
 
-public class q2 {
+public class Q2 {
 	// 사과 바구니 개수 구하기
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
