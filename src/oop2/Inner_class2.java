@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 public class Inner_class2 {
 	class InstanceInner {}
@@ -21,7 +21,7 @@ public class Inner_class2 {
 	}
 	
 	// 인스턴스 메서드
-	void instanceMethod() {
+	void InstanceMethod() {
 		// 인스턴스 멤버(메서드)에서는 인스턴스/스태틱 멤버 모두 접근 가능
 		InstanceInner obj1 = new InstanceInner();
 		StaticInner obj2 = new StaticInner();

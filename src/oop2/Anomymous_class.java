@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 import java.awt.*;
 import java.awt.event.*;

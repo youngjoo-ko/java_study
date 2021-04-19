@@ -1,6 +1,6 @@
-package OOP2;
+package oop2;
 
-public class _super {
+public class _Super {
 	public static void main(String[] args) {
 		Child c = new Child();
 		c.method();

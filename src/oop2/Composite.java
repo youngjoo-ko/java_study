@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class Point{
 	int x;
@@ -11,7 +11,7 @@ class Circle{
 }
 
 
-public class composite {
+public class Composite {
 
 	public static void main(String[] args) {
 		Circle c = new Circle();

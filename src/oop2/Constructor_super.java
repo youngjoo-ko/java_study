@@ -1,6 +1,6 @@
-package OOP2;
+package oop2;
 
-public class constructor_super {
+public class Constructor_super {
 
 	public static void main(String[] args) {
 		Point3D p = new Point3D(1,2,3);

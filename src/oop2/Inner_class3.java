@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class Outer {
 	int value = 10;
@@ -16,7 +16,7 @@ class Outer {
 }
 
 
-class Inner_class3{
+class InnerClass3{
 	public static void main(String args[]) {
 		Outer outer = new Outer();
 		Outer.Inner inner = outer.new Inner();

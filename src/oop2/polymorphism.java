@@ -1,6 +1,6 @@
-package OOP2;
+package oop2;
 
-public class polymorphism {
+public class Polymorphism {
 	public static void main(String[] args) {
 		Car car = null;
 		FireEngine fe = new FireEngine();

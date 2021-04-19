@@ -1,6 +1,6 @@
-package OOP2;
+package oop2;
 
-class Inner_class1 {
+class InnerClass1 {
 	class InstanceInner{
 		int iv = 100;
 		//static int cv = 100; // 에러, 인스턴스클래스 내부에 static 변수 선언 불가

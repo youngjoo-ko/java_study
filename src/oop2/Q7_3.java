@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class Product3{
 	int price;
@@ -26,7 +26,7 @@ class Tv3 extends Product3{
 	}
 }
 
-public class q7_3 {
+public class Q7_3 {
 
 	public static void main(String[] args) {
 		Tv3 t = new Tv3(200);

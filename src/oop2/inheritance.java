@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class Tv{
 	boolean power;
@@ -20,7 +20,7 @@ class SmartTv extends Tv{
 }
 
 
-public class inheritance {
+public class Inheritance {
 	public static void main(String[] args) {
 		SmartTv stv = new SmartTv();
 		stv.channel = 10; // 조상클래스로부터 상속받은 멤버

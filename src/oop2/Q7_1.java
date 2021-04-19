@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class SutdaDeck{
 	final int CARD_NUM = 20;
@@ -58,7 +58,7 @@ class SutdaCard{
 }
 
 
-public class q7_1 {
+public class Q7_1 {
 	public static void main(String[] args) {
 		SutdaDeck deck = new SutdaDeck();
 		

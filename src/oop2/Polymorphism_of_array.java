@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class Product2{
 	int price;

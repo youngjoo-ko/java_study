@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 class MyTv {
 	// private 같은 클래스 내부에서만 접근 가능
@@ -41,7 +41,7 @@ class MyTv {
 }
 
 
-public class q7_4 {
+public class Q7_4 {
 
 	public static void main(String[] args) {
 		MyTv t = new MyTv();

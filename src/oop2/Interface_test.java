@@ -1,4 +1,4 @@
-package OOP2;
+package oop2;
 
 // 추상 클래스 선언
 abstract class Unit2{
